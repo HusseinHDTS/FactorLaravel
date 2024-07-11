@@ -1,0 +1,41 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Users",
+      "slug": "app-user-list",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "role": "admin",
+      "url": "app/user/list"
+    },
+    {
+      "name": "Products",
+      "slug": "app-product-list",
+      "icon": "menu-icon tf-icons ti ti-book",
+      "role": "admin",
+      "url": "app/product/list"
+    },
+    {
+      "name": "Invoice",
+      "icon": "menu-icon tf-icons ti ti-file-dollar",
+      "slug": "app-invoice",
+      "submenu": [
+        {
+          "url": "app/invoice/list",
+          "name": "List",
+          "slug": "app-invoice-list"
+        },
+        {
+          "url": "app/invoice/add",
+          "name": "Add",
+          "slug": "app-invoice-add"
+        }
+      ]
+    }
+  ]
+}
